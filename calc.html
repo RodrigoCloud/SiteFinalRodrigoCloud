@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="calcscript.js"></script>
+    <link rel="stylesheet" href="stylecalc.css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>calculadora Simples</title>
+ </head>
+ 
+<body>
+    <ul>
+        <li><a href="SiteFinal.html" Onclick=msgbtn()>Home</a></li>
+        <li><a href="projectp1.html" Onclick=msgbtn()>Projetos</a></li>
+        <li><a href="Myperfilpage.html" Onclick=msgbtn()>Sobre O Desenvolvedor</a></li>
+      </ul>
+ <div id="principal">
+ <form id="form">
+    <input placeholder="Digite o Primeiro Numero" id="valorX" type="text" size="15"/><br>
+    <input placeholder="Digite o Segundo" id="valorY" type="text" size="15" onblur="opcao()"/><br>
+ <select id="operacao" onblur="opcao()">
+ <option id="valor" value="">Escolha Uma Opção</option>
+ <option id="valor" value="1">Somar</option>
+ <option id="valor" value="2">Subtrair</option>
+ <option id="valor" value="3">Dividir</option>
+ <option id="valor" value="4">Multiplicar</option>
+ </select><br>
+ <input id="calcular" type="button" value="Calcular" onclick="opcao()"/><br>
+ <input id="limpar" type="reset" value="Resetar"/><br>
+ <input id="resultado" placeholder="Resultado"  type="text" size="15" disabled="true"/>
+ </form>
+ </div>
+ 
+</body>
+ 
+</html>

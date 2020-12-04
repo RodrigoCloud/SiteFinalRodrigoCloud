@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: cursive;
+  }
+  li a:hover {
+    background-color: rgb(117, 115, 115);
+  }
+  p{
+    position: absolute;
+    left: 47%;
+    top: 6%;
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(4, 87, 76);
+  }
+  input{
+  color: #373F51;
+  width: 300px;
+  height: 30px;
+  color: rgb(2, 53, 54);
+  }
+  button{
+  width: 100px;
+  height: 40px;
+  }
+  h3{
+  color: red;
+  }
+  div{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+input:hover{
+    border: #373F51;
+    color: #00c8e7;
+    transition: 1.5s;
+  background-color: #373F51;
+
+}
+button{
+    width: 100px;
+    height: 41px;
+    color: #373F51;
+    border: #58A4B0 1px;
+}
+button:hover{
+    color: #58A4B0;
+    border:#373F51;
+    transition: 1.5s;
+  background-color: #373F51;
+
+}
+select{
+  width: 300px;
+  height: 30px;
+  color: rgb(2, 53, 54);
+}
+select:hover{
+  border: #373F51;
+    color: #00c8e7;
+    transition: 1.5s;
+  background-color: #373F51;
+
+}
+#resultado{
+  color: rgb(2, 53, 54);
+  
+}
+#resultado:hover{
+  background-color: #373F51;
+  border: #373F51;
+  color: #00c8e7;
+  transition: 1.5s;
+  
+}

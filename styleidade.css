@@ -1,0 +1,20 @@
+body{
+    background-color:#146459;
+       
+}
+button{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    width: 130px;
+    height: 50px;
+    color: #373F51;
+    background-color: #58A4B0;
+    border: #58A4B0 1px;
+}
+button:hover{
+    background-color: #373F51;
+    color: #58A4B0;
+    border:#373F51;
+    transition: 1.5s;
+}
